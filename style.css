@@ -177,6 +177,8 @@ a:hover {
     		-moz-box-sizing: border-box;
     overflow-x: scroll;
     overflow-y: hidden; 
+    -webkit-overflow-scrolling: auto;
+    scroll-direction: horizontal;
     white-space: nowrap;
 }
 
