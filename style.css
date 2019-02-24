@@ -130,7 +130,6 @@ a:hover {
 	-ms-grid-columns: 40% 60%;
 	grid-template-columns: 40% 60%;
 	width: 100%;
-	padding-bottom: 0.7rem;
 }
 
 .image {
