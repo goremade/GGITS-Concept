@@ -176,7 +176,7 @@ a:hover {
     overflow-x: scroll;
     overflow-y: hidden; 
     white-space: nowrap;
-    -webkit-overflow-scrolling: auto;
+    -webkit-overflow-scrolling: touch;
     scroll-direction: horizontal;
 
 }
