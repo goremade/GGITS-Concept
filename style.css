@@ -173,11 +173,11 @@ a:hover {
     box-sizing: border-box;
     	-webkit-box-sizing: border-box;
     		-moz-box-sizing: border-box;
-    overflow-x: scroll;
-    overflow-y: hidden;
-    white-space: nowrap;
-    /*-webkit-overflow-scrolling: touch;*/
-
+    overflow-x: auto;
+        overflow-y: hidden;
+        -ms-overflow-x: auto;
+        -ms-overflow-y: hidden;
+        white-space: nowrap;
 }
 
 .product-container {
