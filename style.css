@@ -173,11 +173,10 @@ a:hover {
     box-sizing: border-box;
     	-webkit-box-sizing: border-box;
     		-moz-box-sizing: border-box;
-    overflow-x: scroll;
+    overflow-x: auto;
     overflow-y: hidden; 
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
-    scroll-direction: horizontal;
 
 }
 
