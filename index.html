@@ -83,8 +83,8 @@
 			<div class="button">Proceed to Checkout</div>
 		</div>
 		<div class="product-wrapper">
-			
-			<div class="product-container" data-okimage='assets/images/perfectblue.png'>
+			<li data-okimage='assets/images/perfectblue.png'>
+			<div class="product-container">
 				<div class="product-info">
 					<div class="product-title">Reversible Perfect Blue Longsleeve Shirt</div>
 					<div class="product-price">$ 60.00</div>
@@ -93,6 +93,7 @@
 					<img src="assets/images/perfectblue.png" data-okimage='assets/images/perfectblue.png'>
 				</div>
 			</div>
+			</li>
 			<div class="product-container">
 				<div class="product-info">
 					<div class="product-title">House Longsleeve Shirt</div>
@@ -161,7 +162,7 @@
 		});
 
 		$(document).ready(function(){
-      		$('product-container').okhover({
+      		$('li').okhover({
           		fadeIn: true,
           		fadeOut: true,
           		fadeInDuration: 200  
