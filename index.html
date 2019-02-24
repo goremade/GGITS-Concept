@@ -155,14 +155,15 @@
 	<script src="okhover.min.js"></script>
 	<script type="text/javascript">
 		$(document).ready(function() {
-		  $(".cart, .bag").click(function(){
-		    $(".minicart").toggleClass("minicart-after");
-		  });
+			$(".cart, .bag").click(function(){
+		    	$(".minicart").toggleClass("minicart-after");
+		  	});
+
+		  	$(function() {
+    			$('.product-container').okhover();  
+			}):
 		});
 
-		$(function(){
-    		$('.product-container').okhover();  
-		}):
 
 
 
