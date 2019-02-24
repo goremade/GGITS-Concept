@@ -120,11 +120,6 @@ a:hover {
 	right: 0;
 }
 
-.cart-items-container {
-	border-bottom: 1px solid #000;
-	height: 20%;
-}
-
 .inner {
 	display: -ms-grid;
 	display: grid;
@@ -135,14 +130,14 @@ a:hover {
 }
 
 .image {
-	width: 100%;
+	height: 100%;
 	float: left;
 }
 
 .image img {
-	width: 100%;
-	padding: 0.7rem;
+	height: 100px;
 }
+
 
 .info {
 	width: 100%; 
