@@ -123,6 +123,11 @@ a:hover {
 	height: 100px;
 }
 
+.cart-items-container:hover {
+	background-color: #000;
+	color: #fff;
+}
+
 .inner {
 	display: -ms-grid;
 	display: grid;
