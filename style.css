@@ -173,8 +173,9 @@ a:hover {
     box-sizing: border-box;
     	-webkit-box-sizing: border-box;
     		-moz-box-sizing: border-box;
-    overflow-x: auto; 
+    overflow-x: scroll; 
     white-space: nowrap;
+    scroo
     -webkit-overflow-scrolling: touch;
 
 }
