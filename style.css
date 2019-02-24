@@ -9,6 +9,7 @@ body {
 	height: 100vh;
 	padding: 0;
 	margin: 0;
+	overflow: hidden;
 }
 
 p {
@@ -172,8 +173,7 @@ a:hover {
     box-sizing: border-box;
     	-webkit-box-sizing: border-box;
     		-moz-box-sizing: border-box;
-    overflow-x: auto;
-    overflow-y: hidden; 
+    overflow-x: auto; 
     white-space: nowrap;
     -webkit-overflow-scrolling: touch;
 
