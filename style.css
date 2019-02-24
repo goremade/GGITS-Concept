@@ -108,6 +108,7 @@ a:hover {
 	right: -325px;
 	transition: 0.1s ease-in-out;
 	z-index: 998;
+	 overflow-y: auto;
 }
 
 .minicart-after {
@@ -170,6 +171,7 @@ a:hover {
     overflow-y: hidden; 
     white-space: nowrap;
     -webkit-overflow-scrolling: auto;
+    scroll-direction: horizontal;
 
 }
 
