@@ -169,12 +169,13 @@ a:hover {
 	width: -webkit-max-content;
 	width: -moz-max-content;
 	width: max-content;
-    height: 100%; 
+    height: 100vh; 
     box-sizing: border-box;
     	-webkit-box-sizing: border-box;
     		-moz-box-sizing: border-box;
      
     white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
 
 }
 
