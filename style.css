@@ -1,6 +1,5 @@
 html,
 body {
-	position: fixed;
 	background-color: #fff;
 	color: #000;
 	font-family: 'Inconsolata', monospace;
@@ -10,8 +9,6 @@ body {
 	padding: 0;
 	margin: 0;
 	overflow-y: hidden;
-	overflow-x: hidden;
-	
 }
 
 p {
@@ -81,7 +78,7 @@ a:hover {
 }
 
 .cart,
-.bag{
+.bag {
 	text-transform: uppercase;
 	float: right;
 }
@@ -114,13 +111,16 @@ a:hover {
 	-o-transition: 0.1s ease-in-out;
 	transition: 0.1s ease-in-out;
 	z-index: 998;
-	overflow-x: hidden;
-	overflow-y: auto;
 }
 
 .minicart-after {
 
 	right: 0;
+}
+
+.cart-items-container {
+	border-bottom: 1px solid #000;
+	height: 100px;
 }
 
 .inner {
@@ -130,22 +130,20 @@ a:hover {
 	-ms-grid-columns: 40% 60%;
 	grid-template-columns: 40% 60%;
 	width: 100%;
-	border-bottom: 1px solid #000;
 }
 
 .image {
 	height: 100%;
-	float: left;
 }
 
 .image img {
 	height: 100px;
 }
 
-
 .info {
 	width: 100%; 
 	padding: 0.7rem;
+	float: left
 }
 
 .cartTotal {
@@ -171,15 +169,13 @@ a:hover {
 	width: -webkit-max-content;
 	width: -moz-max-content;
 	width: max-content;
-    height: 100vh; 
+    height: 100%; 
     box-sizing: border-box;
     	-webkit-box-sizing: border-box;
     		-moz-box-sizing: border-box;
-    overflow-x: scroll;
-    overflow-y: hidden; 
-    -webkit-overflow-scrolling: auto;
-    scroll-direction: horizontal;
+     
     white-space: nowrap;
+
 }
 
 .product-container {
@@ -265,7 +261,6 @@ a:hover {
 @media only screen and (max-width: 375px) {
   	body {
   		font-size: 12px;
-  		height: 100%;
 
   	}
 
@@ -285,4 +280,5 @@ a:hover {
 		margin-bottom: 2.5rem;
 	}
 }
+
 
